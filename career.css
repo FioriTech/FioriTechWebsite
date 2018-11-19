@@ -1,0 +1,117 @@
+body{
+   margin:0px;
+}
+.image{
+	   background:url('../images/backgrounds-blank-blue-953214.jpg') no-repeat center;
+	   background-size:cover;
+	   height:200px;
+           content: "About Us";
+}
+
+.one{
+	float:right;
+	margin-right:3%;
+	margin-top:2%;
+}
+
+.two{
+	display:inline-block;
+	list-style:none;
+	cursor:pointer;
+}
+.two a{
+	font-family:Roboto,serif;
+	text-decoration:none;
+	color:white;
+	text-align:center;
+	padding:12px 30px;
+	font-weight:bold;
+	
+}
+.active{
+	background-color:rgb(255, 102, 0);
+	color:white;
+	border-radius:8px;
+}
+.two a:hover:not(.active){
+	border-bottom:2px solid rgb(255, 102, 0);
+	}
+.openings{
+margin-top:40px;
+margin-left:177px;
+font-family:Raleway;
+border-bottom: 3px solid black;
+padding-bottom: 15px;
+width: 27%;
+}
+.second{
+margin-top:140px;
+font-family: Raleway, serif;
+font-size:17px;
+text-align:justify;
+color:black;
+width:70%;
+margin-left:180px;
+line-height: 30px;
+}
+.mainblock{
+background: linear-gradient(to right, rgba(40,108,154,1) 0%, rgba(38,117,207,1) 0%, rgba(40,159,210,1) 41%, rgba(40,159,210,1) 56%, rgba(40,108,154,1) 100%);
+width: 1000px;
+height: 1050px;
+margin-left:175px;
+margin-top: 40px;
+}
+.amainblock{
+width:100%;
+}
+.web{
+font-family:Raleway;
+font-size: 25px;
+padding-top: 20px;
+padding-left:15px;
+}
+pre{
+font-size:17px;
+color:white;
+padding-left:15px;
+}
+pre.first{
+font-size:17px;
+color:white;
+padding-top:7px;
+}
+.bmainblock{
+width:100%;
+height: 320px;
+}
+.cmainblock{
+width:100%;
+height: 350px;
+}
+.links{
+float:right;
+color:black;
+margin-right: 15px;
+font-family: raleway,serif;
+font-size:22px;
+font-weight:bold;
+text-decoration:none;
+padding:8px 15px;
+background-color:white;
+}
+.links:hover{
+background:none;
+color:white;
+}
+footer{
+height:10px;
+}
+footer p{
+background: linear-gradient(to right, rgba(40,108,154,1) 0%, rgba(38,117,207,1) 0%, rgba(40,159,210,1) 41%, rgba(40,159,210,1) 56%, rgba(40,108,154,1) 100%);
+font-family: Raleway;
+height:20px;
+padding-top:10px;
+padding-left:8px;
+padding-bottom:10px;
+font-size: 17px;
+}
