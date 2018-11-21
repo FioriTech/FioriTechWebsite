@@ -1,65 +1,71 @@
-body{
-   margin:0px;
-}
-.image{
-	   background:url('../images/backgrounds-blank-blue-953214.jpg') no-repeat center;
-	   background-size:cover;
-	   height:200px;
-           content: "About Us";
+body {
+    margin: 0px;
 }
 
-.one{
-	float:right;
-	margin-right:3%;
-	margin-top:2%;
+.image {
+    background: url('../images/backgrounds-blank-blue-953214.jpg') no-repeat center;
+    background-size: cover;
+    height: 200px;
+    content: "About Us";
 }
 
-.two{
-	display:inline-block;
-	list-style:none;
-	cursor:pointer;
+.one {
+    float: right;
+    margin-right: 3%;
+    margin-top: 2%;
 }
-.two a{
-	font-family:Roboto,serif;
-	text-decoration:none;
-	color:white;
-	text-align:center;
-	padding:12px 30px;
-	font-weight:bold;
-	
+
+.two {
+    display: inline-block;
+    list-style: none;
+    cursor: pointer;
 }
-.two a:hover:not(.active){
-	border-bottom:2px solid rgb(255, 102, 0);
-	}
-.firstulist{
-	float:right;
-	margin-right:3%;
-	margin-top:2%;
+
+.two a {
+    font-family: Roboto, serif;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 12px 30px;
+    font-weight: bold;
+
+}
+
+.two a:hover:not(.active) {
+    border-bottom: 2px solid rgb(255, 102, 0);
+}
+
+.firstulist {
+    float: right;
+    margin-right: 3%;
+    margin-top: 2%;
 }
 
 .dropbtn {
     background-color: transparent;
     color: white;
-    padding:12px 30px;
+    padding: 12px 30px;
     font-size: 16px;
     border: none;
     cursor: pointer;
-	text-decoration:none;
-	font-family:Roboto,serif;
-	text-align:center;
-	font-weight:bold;
+    text-decoration: none;
+    font-family: Roboto, serif;
+    text-align: center;
+    font-weight: bold;
 }
 
 
-.active{
-	background-color:rgb(255, 102, 0);
-	color:white;
-	border-radius:8px;
+.active {
+    background-color: rgb(255, 102, 0);
+    color: white;
+    border-radius: 8px;
 }
-.active1{
-	background-color:rgb(255, 102, 0);
-	color:white;
+
+.active1 {
+    background-color: rgb(255, 102, 0);
+    color: white;
 }
+
 .dropdown {
     position: relative;
     display: inline-block;
@@ -69,10 +75,10 @@ body{
     display: none;
     position: absolute;
     background-color: #f9f9f9;
-	font-family:raleway,serif;
-	font-weight:bold;
+    font-family: raleway, serif;
+    font-weight: bold;
     min-width: 190px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
 }
 
@@ -84,7 +90,7 @@ body{
 }
 
 .dropdown-content a:hover {
-	background-color:rgb(255, 102, 0);
+    background-color: rgb(255, 102, 0);
 }
 
 .dropdown:hover .dropdown-content {
@@ -92,104 +98,117 @@ body{
 }
 
 .dropdown:hover .dropbtn {
- 	border-bottom:2px solid rgb(255, 102, 0);   
+    border-bottom: 2px solid rgb(255, 102, 0);
 }
-.dropbtn:hover{
-	border-bottom:2px solid rgb(255, 102, 0);
+
+.dropbtn:hover {
+    border-bottom: 2px solid rgb(255, 102, 0);
 }
-.gfi{
-margin-top:50px;
-margin-left:30%;
-padding:8px;
-width:40%;
-height:90px;
-background-color:rgba(255, 102, 0,0.8);
-border-radius:10px 10px;
+
+.gfi {
+    margin-top: 50px;
+    margin-left: 30%;
+    padding: 8px;
+    width: 40%;
+    height: 90px;
+    background-color: rgba(255, 102, 0, 0.8);
+    border-radius: 10px 10px;
 }
-.first{
-margin-top:20px;
-margin-left:15px;
-text-align:center;
-font-size:45px;
-font-family: Raleway;
+
+.first {
+    margin-top: 20px;
+    margin-left: 15px;
+    text-align: center;
+    font-size: 45px;
+    font-family: Raleway;
 }
-.second{
-margin-top:90px;
-font-family: Raleway, serif;
-font-size:17px;
-text-align:justify;
-color:black;
-width:65%;
-margin-left: 18%;
-line-height: 30px;
+
+.second {
+    margin-top: 90px;
+    font-family: Raleway, serif;
+    font-size: 17px;
+    text-align: justify;
+    color: black;
+    width: 65%;
+    margin-left: 18%;
+    line-height: 30px;
 }
-.second1{
-margin-top:40px;
-font-family: Raleway, serif;
-font-size:17px;
-text-align:justify;
-color:black;
-width:65%;
-margin-left: 18%;
-line-height: 30px;
+
+.second1 {
+    margin-top: 40px;
+    font-family: Raleway, serif;
+    font-size: 17px;
+    text-align: justify;
+    color: black;
+    width: 65%;
+    margin-left: 18%;
+    line-height: 30px;
 }
-.second3{
-margin-top:100px;
-font-family: Raleway, serif;
-font-size:20px;
-text-align:justify;
-color:black;
-width:65%;
-margin-left: 18%;
-line-height: 30px;
+
+.second3 {
+    margin-top: 100px;
+    font-family: Raleway, serif;
+    font-size: 20px;
+    text-align: justify;
+    color: black;
+    width: 65%;
+    margin-left: 18%;
+    line-height: 30px;
 }
-.asecondblock{
-margin-top: 20px;
-font-family: Raleway, serif;
-color:black;
-margin-left: 17%;
-line-height: 22px;
-font-size:17px;
-text-align:justify;
-width:60%;
+
+.asecondblock {
+    margin-top: 20px;
+    font-family: Raleway, serif;
+    color: black;
+    margin-left: 17%;
+    line-height: 22px;
+    font-size: 17px;
+    text-align: justify;
+    width: 60%;
 }
-.second2{
-margin-top:40px;
-font-family: Raleway, serif;
-font-size:20px;
-margin-left: 18%;
-line-height: 30px;
+
+.second2 {
+    margin-top: 40px;
+    font-family: Raleway, serif;
+    font-size: 20px;
+    margin-left: 18%;
+    line-height: 30px;
 }
-.secondblock{
-float:left;
-margin-left:20px;
-width: 50%;
+
+.secondblock {
+    float: left;
+    margin-left: 20px;
+    width: 50%;
 }
-.csecondblock{
-margin-top: 20px;
-font-family: Raleway, serif;
-color:black;
-margin-left: 31%;
-line-height: 22px;
-font-size:17px;
-text-align:justify;
+
+.csecondblock {
+    margin-top: 20px;
+    font-family: Raleway, serif;
+    color: black;
+    margin-left: 31%;
+    line-height: 22px;
+    font-size: 17px;
+    text-align: justify;
 }
-.image2{
-width: 25%;
-height:300px;
-margin-left: 70px;
-border-radius: 8px;
-box-shadow: 0 0 10px #000;
+
+.image2 {
+    width: 25%;
+    height: 300px;
+    margin-left: 70px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #000;
 }
-footer{
-height:10px;
+
+footer {
+    height: 10px;
 }
-footer p{
-background: linear-gradient(to right, rgba(40,108,154,1) 0%, rgba(38,117,207,1) 0%, rgba(40,159,210,1) 41%, rgba(40,159,210,1) 56%, rgba(40,108,154,1) 100%);
-font-family: Raleway;
-height:20px;
-padding-top:10px;
-padding-left:8px;
-padding-bottom:10px;
-font-size: 17px;
+
+footer p {
+    background: linear-gradient(to right, rgba(40, 108, 154, 1) 0%, rgba(38, 117, 207, 1) 0%, rgba(40, 159, 210, 1) 41%, rgba(40, 159, 210, 1) 56%, rgba(40, 108, 154, 1) 100%);
+    font-family: Raleway;
+    height: 20px;
+    padding-top: 10px;
+    padding-left: 8px;
+    padding-bottom: 10px;
+    font-size: 17px;
 }
