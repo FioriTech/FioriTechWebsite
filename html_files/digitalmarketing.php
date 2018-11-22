@@ -1,104 +1,95 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <title>Fiori Technologies</title>
     <link href="../css_files/common.css" type="text/css" rel="stylesheet" />
-    <link href="../css_files/digitalmarketing.css" type="text/css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Raleway|Roboto" rel="stylesheet">
 </head>
 
 <body>
-    <div class="image">
+    <div class="image1">
         <div>
             <img src="../images/Fiori.png" height="90px" alt="FioriTech logo">
             <?php include 'common files/menu.php' ?>
         </div>
-        <div class="smm">
-            <p class="first"><b>Digital Marketing</b></p>
+        <div class="webdesign">
+            <p><b>Digital Marketing</b></p>
         </div>
     </div>
     <br>
-    <br>
-    <br>
-    <br>
-    <div class="firstblock">
+	<br>
+	<br>
+	<br>
+    <div class="firstblock1">
         <h1>Social Media Marketing</h1>
         <hr>
         <div style="clear:both;"></div>
-        <p class="second">Fiori Technologies make your relevant, engaging and results-driven social media presence possible. We consult with you to fully understand your goals and objectives – then develop a strategy to surpass them. That includes extensive research to develop the most effective keyword strategy, highlight the channels where your audience is most likely to be and develop persona-specific solutions. We track, measure and report the metrics that shape your social strategy. If something works, you’ll see it. If something doesn’t, we fix it.</p>
-        <p class="second1">When you work with Fiori Technologies, everything is planned out in advance, these efforts empower you and your team to execute on and build a strong, trusted voice in the crowded social space.</p>
+        <p>Fiori Technologies make your relevant, engaging and results-driven social media presence possible. We consult with you to fully understand your goals and objectives – then develop a strategy to surpass them. That includes extensive research to develop the most effective keyword strategy, highlight the channels where your audience is most likely to be and develop persona-specific solutions. We track, measure and report the metrics that shape your social strategy. If something works, you’ll see it. If something doesn’t, we fix it.</p>
+        <p>When you work with Fiori Technologies, everything is planned out in advance, these efforts empower you and your team to execute on and build a strong, trusted voice in the crowded social space.</p>
     </div>
-    <div class="mainblock">
-        <div class="secondblock">
-            <ul>
-                <li class="csecondblock">Facebook page management</li>
-                <li class="csecondblock">Twitter account management</li>
-                <li class="csecondblock">Linkedin profile creation & management</li>
-                <li class="csecondblock">Youtube channel creation & management</li>
-                <li class="csecondblock">Virtual marketing</li>
-                <li class="csecondblock">Improve site conversion</li>
-                <li class="csecondblock">Community participation</li>
-                <li class="csecondblock">Social media audit</li>
-                <li class="csecondblock">Social bookmarking</li>
-            </ul>
-        </div>
-        <div>
-            <img src="../images/Social_media_Marketing.png" class="image2" alt="image" />
-        </div>
-        <div>
-            <br />
-            <br />
 
-            <div class="seo">
+        <div class="firstblock1">
+            <ul>
+                <li>Facebook page management</li>
+                <li>Twitter account management</li>
+                <li>Linkedin profile creation & management</li>
+                <li>Youtube channel creation & management</li>
+                <li>Virtual marketing</li>
+                <li>Improve site conversion</li>
+                <li>Community participation</li>
+                <li>Social media audit</li>
+                <li>Social bookmarking</li>
+            </ul>
+            <img src="../images/Social_media_Marketing.png" class="image4" alt="image" />
+        </div>
+        <div>
+            <br />
+            <br />
+	<div class="clear"></div>
+            <div class="firstblock1">
                 <h1>Online Marketing (SEO)</h1>
                 <hr>
             </div>
             <div style="clear:both;"></div>
-            <div class="firstblock">
-                <p class="second">No doubt about it, Fiori Technologies is master in SEO and that is what our name says. We do both on page as well as off page optimization for making your website #1.</p>
+            <div class="firstblock1">
+                <p>No doubt about it, Fiori Technologies is master in SEO and that is what our name says. We do both on page as well as off page optimization for making your website #1.</p>
             </div>
-            <div class="mainblock">
-                <div class="secondblock">
+			
+                <div class="firstblock1">
                     <ul>
-                        <li class="csecondblock">Social Media Marketing(including Face book, twitter, etc.)​</li>
-                        <li class="csecondblock">Twitter account management</li>
-                        <li class="csecondblock">Link Building</li>
-                        <li class="csecondblock">YouTube integration</li>
-                        <li class="csecondblock">Viral marketing</li>
-                        <li class="csecondblock">Geo listing & targeting.</li>
-                        <li class="csecondblock">Directory Submission</li>
-                        <li class="csecondblock">Article Writing & submission.</li>
-                    </ul>
+                        <li>Social Media Marketing(including Face book, twitter, etc.)​</li>
+                        <li>Twitter account management</li>
+                        <li>Link Building</li>
+                        <li>YouTube integration</li>
+                        <li>Viral marketing</li>
+                        <li>Geo listing & targeting.</li>
+                        <li>Directory Submission</li>
+                        <li>Article Writing & submission.</li>
+                    </ul>    
+                    <img src="../images/seo.jpg" class="image5" alt="image" />
                 </div>
                 <div>
-                    <img src="../images/seo.jpg" class="image3" alt="image" />
-                </div>
-                <div>
-                    <br />
                     <br />
 
-                    <div class="sms">
-                        <h1 class="first2">SMS Marketing</h1>
+                    <div class="firstblock1">
+                        <h1>SMS Marketing</h1>
                         <hr>
                     </div>
                     <div style="clear:both;"></div>
-                    <div class="firstblock">
-                        <p class="second">Our Application covers all the variants of the market demands. Our application supports different types of API routes including HTTP, SMPP, High Speed. A powerful overselling system has been developed in our SMS application.</p>
+                    <div class="firstblock1">
+                        <p>Our Application covers all the variants of the market demands. Our application supports different types of API routes including HTTP, SMPP, High Speed. A powerful overselling system has been developed in our SMS application.</p>
                     </div>
-                    <div class="mainblock">
-                        <div class="secondblock">
+                   
+                        <div class="firstblock1">
                             <ul>
-                                <li class="csecondblock">Multiple Priority Route.</li>
-                                <li class="csecondblock">FAst Control Panel</li>
-                                <li class="csecondblock">Flash SMS.</li>
-                                <li class="csecondblock">Multilingual Messaging.</li>
-                                <li class="csecondblock">Hindi SMS.</li>
-                                <li class="csecondblock">Message Templates & Sender ID Support.</li>
+                                <li>Multiple Priority Route.</li>
+                                <li>FAst Control Panel</li>
+                                <li>Flash SMS.</li>
+                                <li>Multilingual Messaging.</li>
+                                <li>Hindi SMS.</li>
+                                <li>Message Templates & Sender ID Support.</li>
                             </ul>
-                        </div>
-                        <div>
-                            <img src="../images/sms.jpg" class="image4" alt="image" />
+                            <img src="../images/sms.jpg" class="image6" alt="image" />
                         </div>
 
                         <div>
