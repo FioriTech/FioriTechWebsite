@@ -3,6 +3,7 @@
 
 <head>
     <title>Fiori Technologies</title>
+    <link href="../common.css" type="text/css" rel="stylesheet" />
     <link href="../css_files/career.css" type="text/css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Raleway|Roboto" rel="stylesheet">
 </head>
@@ -32,7 +33,7 @@ Excellent verbal and written English communication.
 Eagerness to learn and grow in the digital marketing industry.
 Analytical mindset and critical thinking.
 </pre>
-                <a href="job_application_form.html" class="links">APPLY</a>
+                <a href="job_application_form.php" class="links">APPLY</a>
                 <br />
                 <br />
             </div>
@@ -47,7 +48,7 @@ No. of Openings - 3</pre>
 Good skills in Core PHP, wordpress, Magento, Shopify, MYSQL, XML, HTML, DHTML, Java Script, JQuery. 
 Google & Third Party API Integration
 Developed PHP Applications with various IDE tools like Eclipse.</pre>
-                <a href="job_application_form.html" class="links">APPLY</a>
+                <a href="job_application_form.php" class="links">APPLY</a>
             </div>
             <hr />
             <div class="cmainblock">
@@ -60,7 +61,7 @@ No. of Openings - 2</pre>
 Need experience in HTMLCSS, JavaScript, jQuery, Ajax
 Good with PHP, MySQL, Bootstrap
 Very good communication skills </pre>
-                <a href="job_application_form.html" class="links">APPLY</a>
+                <a href="job_application_form.php" class="links">APPLY</a>
             </div>
         </div>
         

@@ -3,6 +3,7 @@
 
 <head>
     <title>Fiori Technologies</title>
+    <link href="../common.css" type="text/css" rel="stylesheet" />
     <link href="../css_files/coreimpact.css" type="text/css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Raleway|Roboto" rel="stylesheet">
 </head>
@@ -37,14 +38,7 @@
         </div>
         <div>
             <img src="../images/images.jpg" alt="image" class="image2" />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
         </div>
-
     </div>
     <div>
         <div class="thirdblock">

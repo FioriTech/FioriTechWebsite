@@ -3,6 +3,7 @@
 
 <head>
     <title>Fiori Technologies</title>
+    <link href="../common.css" type="text/css" rel="stylesheet" />
     <link href="../css_files/nipperstudio.css" type="text/css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Raleway|Roboto" rel="stylesheet">
 </head>
