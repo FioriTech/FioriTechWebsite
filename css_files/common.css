@@ -553,6 +553,16 @@ table {
 	margin-top:1%;
 }
 
+.contactdetail {
+    height: 250px;
+    margin-top: 75px;
+    margin-left: 50%;
+}
+
+.contactdetail h1 {
+    text-align: center;
+}
+
 footer {
     height: 10px;
 }
