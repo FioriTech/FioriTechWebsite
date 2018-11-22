@@ -262,48 +262,6 @@ body {
     background-color: rgb(255, 102, 0);
 }
 
-.contactdetail {
-    height: 250px;
-    margin-top: 75px;
-    margin-left: 50%;
-}
-
-.contactdetail h1 {
-    text-align: center;
-}
-
-.formdetail {
-    height: 300px;
-    width: 320px;
-    float: right;
-    margin-right: 150px;
-    margin-top: 30px;
-}
-
-.input {
-    margin-bottom: 15px;
-    font-size: 20px;
-    padding: 5px 40px 5px 10px;
-    border: none;
-    color: white;
-    background-color: black;
-}
-
-#submit {
-    text-align: center;
-    margin-left: 70px;
-    border: none;
-    color: white;
-    background-color: black;
-    padding: 15px 30px;
-    font-size: 20px;
-    cursor: pointer;
-}
-
-#submit:hover {
-    border: 1px solid white;
-}
-
 .about {
     margin-top: 50px;
     margin-left: 130px;
@@ -520,6 +478,79 @@ table {
 	height:350px;
 	margin-left:12%;
 	margin-top:7%;
+}
+
+.techsolution {
+    margin-left: 18%;
+}
+
+.techsolution hr {
+    width: 35%;
+    float: left;
+}
+
+.techsolution p {
+    text-align: justify;
+    color: black;
+    width: 80%;
+    line-height: 30px;
+}
+
+.techsolution ul{
+	line-height:35px;
+	text-align: justify;
+	float:left;
+	width:38%;
+}
+.techsolution img{
+	border-radius: 8px;
+    box-shadow: 0 0 10px #000;
+}
+
+.image9{
+	height:180px;
+	margin-top:6%;
+}
+
+.image10{
+	height:300px;
+	margin-left:9%;
+	margin-top:6%;
+}
+
+.image11{
+	height:300px;
+	margin-left:9%;
+	margin-top:3%;
+}
+
+.techsolution1 {
+    margin-left: 18%;
+}
+
+.techsolution1 ul{
+	line-height:35px;
+	text-align: justify;
+	width:75%;
+}
+
+.techsolution1 p {
+    text-align: justify;
+    color: black;
+    width: 55%;
+    line-height: 30px;
+	float: left;
+}
+
+.techsolution1 img{
+	border-radius: 8px;
+    box-shadow: 0 0 10px #000;
+}
+
+.image12{
+	height:150px;
+	margin-left:5%;
+	margin-top:1%;
 }
 
 footer {
