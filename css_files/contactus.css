@@ -126,18 +126,6 @@ body {
     font-weight: bold;
 }
 
-.contactdetail {
-    height: 250px;
-    margin-top: 75px;
-    font-family: raleway, serif;
-    margin-left: 50%;
-    ;
-}
-
-.contactdetail h1 {
-    text-align: center;
-}
-
 .call {
     height: 30%;
     margin-left: 10%;

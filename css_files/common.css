@@ -272,68 +272,13 @@ body {
 
 .contactdetail {
     height: 250px;
-    width: 320px;
-    margin-left: 200px;
-    float: left;
-}
-
-.call {
-    height: 30%;
-}
-
-.call img {
-    height: 60px;
-    width: 60px;
-    float: left;
-    margin-left: 5px;
-    cursor: pointer;
-}
-
-.call p {
-    margin-left: 80px;
-    padding-top: 20px;
+    margin-top: 75px;
     font-family: raleway, serif;
-    font-size: 17px;
-    color: white;
+    margin-left: 50%;
 }
 
-.mail {
-    height: 30%;
-}
-
-.mail img {
-    height: 60px;
-    width: 60px;
-    float: left;
-    margin-left: 5px;
-    cursor: pointer;
-}
-
-.mail p {
-    margin-left: 80px;
-    padding-top: 20px;
-    font-family: raleway, serif;
-    font-size: 17px;
-    color: white;
-}
-
-.address {
-    height: 30%;
-}
-
-.address img {
-    height: 60px;
-    width: 60px;
-    float: left;
-    margin-left: 5px;
-    cursor: pointer;
-}
-
-.address p {
-    margin-left: 80px;
-    font-family: raleway, serif;
-    font-size: 17px;
-    color: white;
+.contactdetail h1 {
+    text-align: center;
 }
 
 .formdetail {
