@@ -262,21 +262,6 @@ body{
 	background-color:rgb(255, 102, 0);
 }
 
-.footer{
-	width:auto;
-	height:500px;
-	background: linear-gradient(to right, rgba(40,108,154,1) 0%, rgba(38,117,207,1) 0%, rgba(40,159,210,1) 41%, rgba(40,159,210,1) 56%, rgba(40,108,154,1) 100%);
-    margin-top:5%;
-}
-.footer h1{
-	text-align:center;
-	font-size:50px;
-	padding-top:20px;
-	font-family:roboto,serif;
-	color:white;
-	text-shadow:5px 10px 15px rgba(0,0,0,0.5);
-}
-
 .contactdetail{
 	height:250px;
 	width:320px;

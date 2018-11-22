@@ -240,17 +240,3 @@ body {
     margin-left: 5%;
     box-shadow: 0 0 10px #000000;
 }
-
-footer {
-    height: 10px;
-}
-
-footer p {
-    background: linear-gradient(to right, rgba(40, 108, 154, 1) 0%, rgba(38, 117, 207, 1) 0%, rgba(40, 159, 210, 1) 41%, rgba(40, 159, 210, 1) 56%, rgba(40, 108, 154, 1) 100%);
-    font-family: Raleway, serif;
-    height: 20px;
-    padding-top: 10px;
-    padding-left: 8px;
-    padding-bottom: 10px;
-    font-size: 17px;
-}
