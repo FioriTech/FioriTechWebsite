@@ -7,6 +7,12 @@ body {
     background-size: cover;
     height: 550px;
 }
+.image1 {
+    background: url('../images/backgrounds-blank-blue-953214.jpg') no-repeat center;
+    background-size: cover;
+    height: 200px;
+    content: "About Us";
+}
 
 .firstulist {
     float: right;
@@ -313,6 +319,185 @@ body {
 
 #submit:hover {
     border: 1px solid white;
+}
+
+.about {
+    margin-top: 50px;
+    margin-left: 130px;
+    padding: 8px;
+    width: 30%;
+    height: 90px;
+    background-color: rgba(255, 102, 0, 0.8);
+    border-radius: 10px 10px;
+}
+
+.first {
+    margin-top: 17px;
+    margin-left: 90px;
+    font-size: 50px;
+	font-family:raleway,serif;
+}
+
+.webdesign {
+    margin-top: 50px;
+    margin-left: 30%;
+    padding: 8px;
+    width: 40%;
+    height: 90px;
+    background-color: rgba(255, 102, 0, 0.8);
+    border-radius: 10px 10px;
+}
+
+.webdesign p {
+    margin-top: 20px;
+    text-align:center;
+    font-size: 45px;
+    font-family: Raleway;
+}
+
+.intro{
+	margin-top:7%;
+	margin-left:10%;
+}
+
+.intro p{
+	font-family:raleway;
+	width:50%;
+	text-align:justify;
+	line-height:30px;
+}
+
+.intro img{
+	border-radius:50%;
+	height:400px;
+	margin-right:8%;
+	float:right;
+}
+
+.firstblock {
+    margin-top: 90px;
+    font-family: Raleway, serif;
+    font-size: 17px;
+    text-align: justify;
+    color: black;
+    width: 65%;
+    margin-left: 18%;
+    line-height: 30px;
+}
+
+.secondblock {
+    float: left;
+    margin-top: 20px;
+    font-family: Raleway, serif;
+    color: black;
+    margin-left: 10%;
+    font-size: 17px;  
+}
+
+.csecondblock {
+    line-height: 30px;
+	width: 45%;
+	text-align: justify;
+}
+
+.csecondblock li{
+    margin-top: 20px;
+	line-height: 30px;
+	text-align: justify;
+}
+
+.third {
+    margin-top: 4%;
+    font-family: Raleway, serif;
+    font-size: 17px;
+    text-align: justify;
+    color: black;
+	width: 45%;
+    line-height: 30px;
+}
+
+.image2 {
+    width: 30%;
+    float: right;
+    margin-right: 120px;
+    margin-top: 60px;
+    border-radius: 8px;
+    box-shadow: 1px 1px #000000;
+}
+
+.secondblock1 {
+    float: left;
+    margin-left: 20px;
+    width: 50%;
+}
+
+.bsecondblock1 {
+    margin-top: 60px;
+    font-family: Raleway, serif;
+    color: black;
+    font-size: 20px;
+    width: 80%;
+    margin-left: 17%;
+}
+
+.csecondblock1 {
+    margin-top: 20px;
+    font-family: Raleway, serif;
+    color: black;
+    margin-left: 31%;
+    line-height: 30px;
+    font-size: 17px;
+}
+
+.image3 {
+    width: 30%;
+    margin-left: 70px;
+    margin-top: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #000;
+}
+
+.fourth {
+    margin-top: 35px;
+    font-family: Raleway, serif;
+    font-size: 17px;
+    text-align: justify;
+    color: black;
+    width: 70%;
+    line-height: 30px;
+    margin-left: 17%;
+}
+
+th,
+td {
+    border: 1px solid black;
+    width: 50%;
+    margin: auto;
+    padding-left: 5px;
+}
+
+th {
+    background-color: rgb(0, 0, 153);
+    color: white;
+}
+
+tr {
+    background-color: rgb(204, 204, 179);
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(173, 173, 133);
+}
+
+table {
+    border: 1px solid black;
+    height: 300px;
+    width: 50%;
+    text-align: left;
+    margin-left: 320px;
+    margin-top: 50px;
+    font-family: Raleway;
+    font-size: 17px;
 }
 
 footer {
