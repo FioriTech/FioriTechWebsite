@@ -15,15 +15,13 @@
             <?php include 'common files/menu.php' ?>
         </div>
     </div>
-    <div class="intro">
+    <div class="techsolution">
         <p>Fiori Technologies is the youngest and fastest growing technology enabler in Website Development, Digital Marketing and Cyber Security. We want to harness the talent of all our employees to be able to make a difference and create an exciting future for all. Our employees tell us they value the helpful, collaborative and supportive culture that exists within the organization.</p>
-    </div>
-    <h1 class="openings"> Current Openings</h1>
+        <h1 class="openings"> Current Openings</h1>
 
-    <div class="mainblock">
-        <div class="amainblock">
+        <div class="mainblock">
             <h1 class="web"> Digital Marketing Executive</h1>
-            <pre class="aweb">Location: Delhi
+            <pre>Location: Delhi
 Job Code:-00102
 Years of experience: 0-3 Years
 No. of Openings - 1</pre>
@@ -36,11 +34,9 @@ Analytical mindset and critical thinking.
             <a href="job_application_form.php" class="links">APPLY</a>
             <br />
             <br />
-        </div>
-        <hr />
-        <div class="bmainblock">
+            <hr />
             <h1 class="web"> Senior Web Developer</h1>
-            <pre class="aweb">Location: Delhi
+            <pre>Location: Delhi
 Job Code:-00102
 Years of experience: 2-5 Years
 No. of Openings - 3</pre>
@@ -49,11 +45,11 @@ Good skills in Core PHP, wordpress, Magento, Shopify, MYSQL, XML, HTML, DHTML, J
 Google & Third Party API Integration
 Developed PHP Applications with various IDE tools like Eclipse.</pre>
             <a href="job_application_form.php" class="links">APPLY</a>
-        </div>
-        <hr />
-        <div class="cmainblock">
+            <br />
+            <br />
+            <hr />
             <h1 class="web"> Web Developer</h1>
-            <pre class="aweb">Location: Delhi
+            <pre>Location: Delhi
 Job Code:-00101
 Years of experience: 0-1 Year
 No. of Openings - 2</pre>
@@ -62,6 +58,9 @@ Need experience in HTMLCSS, JavaScript, jQuery, Ajax
 Good with PHP, MySQL, Bootstrap
 Very good communication skills </pre>
             <a href="job_application_form.php" class="links">APPLY</a>
+            <br />
+            <br />
+            <br />
         </div>
     </div>
 
