@@ -1,5 +1,5 @@
 <?php 
-    $root_url = "http://localhost/FioriTechWebsite/";
+    $root_url = "http://FioriTech.com/";
     $sub_folder = "html_files/";
 ?>
 

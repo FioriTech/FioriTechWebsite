@@ -1,6 +1,5 @@
 ﻿<!DOCTYPE html>
 <html>
-
 <head>
     <title>Fiori Technologies</title>
     <link href="../css_files/contactus.css" type="text/css" rel="stylesheet" />
@@ -44,5 +43,4 @@
    
     <?php include 'common files/footer.php' ?>
 </body>
-
 </html>

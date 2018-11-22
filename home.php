@@ -110,8 +110,7 @@
         </div>
     </div>
     <div class="clear"></div>
-    <footer>
-        <p><b>Copyrights ©2018: Fiori Technologies</b></p>
-    </footer>
+    
+    <?php include 'html_files/common files/footer.php' ?>
 </body>
 </html>

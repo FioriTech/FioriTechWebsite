@@ -28,5 +28,4 @@
     
     <?php include 'common files/footer.php' ?>
 </body>
-
 </html>
