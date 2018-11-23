@@ -480,6 +480,29 @@ table {
 	margin-top:7%;
 }
 
+.image9{
+	height:180px;
+	margin-top:6%;
+}
+
+.image10{
+	height:300px;
+	margin-left:9%;
+	margin-top:6%;
+}
+
+.image11{
+	height:300px;
+	margin-left:9%;
+	margin-top:3%;
+}
+
+.image12{
+	height:150px;
+	margin-left:5%;
+	margin-top:1%;
+}
+
 .techsolution {
     margin-left: 18%;
 }
@@ -507,23 +530,6 @@ table {
     box-shadow: 0 0 10px #000;
 }
 
-.image9{
-	height:180px;
-	margin-top:6%;
-}
-
-.image10{
-	height:300px;
-	margin-left:9%;
-	margin-top:6%;
-}
-
-.image11{
-	height:300px;
-	margin-left:9%;
-	margin-top:3%;
-}
-
 .techsolution1 {
     margin-left: 18%;
 }
@@ -545,12 +551,6 @@ table {
 .techsolution1 img{
 	border-radius: 8px;
     box-shadow: 0 0 10px #000;
-}
-
-.image12{
-	height:150px;
-	margin-left:5%;
-	margin-top:1%;
 }
 
 .contactdetail {

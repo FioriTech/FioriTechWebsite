@@ -13,7 +13,6 @@
             <img src="../images/Fiori.png" height="90px" alt="FioriTech logo">
             <?php include 'common files/menu.php' ?>
         </div>
-        <div style="clear:both;"></div>
         <div class="webdesign">
             <p><b>Antivirus</b></p>
         </div>
@@ -22,7 +21,6 @@
 	<br>
 	<br>
 	<br>
-    <div style="clear:both;"></div>
 	<div class="techsolution1">
     <h1>Kaspersky</h1>
         <p>Kaspersky total security multidevice helps protect your privacy, money, identity, photos & family against today's threats. One product – with one license – can secure your PCs, Mac computers and Android phones & tablets.</p>
