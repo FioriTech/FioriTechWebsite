@@ -395,28 +395,28 @@ body {
     margin-left: 17%;
 }
 
-th,
-td {
+.th,
+.td {
     border: 1px solid black;
     width: 50%;
     margin: auto;
     padding-left: 5px;
 }
 
-th {
+.th {
     background-color: rgb(0, 0, 153);
     color: white;
 }
 
-tr {
+.tr {
     background-color: rgb(204, 204, 179);
 }
 
-tr:nth-child(odd) {
+.tr:nth-child(odd) {
     background-color: rgb(173, 173, 133);
 }
 
-table {
+.table {
     border: 1px solid black;
     height: 300px;
     width: 50%;
@@ -480,6 +480,29 @@ table {
 	margin-top:7%;
 }
 
+.image9{
+	height:180px;
+	margin-top:6%;
+}
+
+.image10{
+	height:300px;
+	margin-left:9%;
+	margin-top:6%;
+}
+
+.image11{
+	height:300px;
+	margin-left:9%;
+	margin-top:3%;
+}
+
+.image12{
+	height:150px;
+	margin-left:5%;
+	margin-top:1%;
+}
+
 .techsolution {
     margin-left: 18%;
 }
@@ -507,23 +530,6 @@ table {
     box-shadow: 0 0 10px #000;
 }
 
-.image9{
-	height:180px;
-	margin-top:6%;
-}
-
-.image10{
-	height:300px;
-	margin-left:9%;
-	margin-top:6%;
-}
-
-.image11{
-	height:300px;
-	margin-left:9%;
-	margin-top:3%;
-}
-
 .techsolution1 {
     margin-left: 18%;
 }
@@ -547,10 +553,204 @@ table {
     box-shadow: 0 0 10px #000;
 }
 
-.image12{
-	height:150px;
-	margin-left:5%;
-	margin-top:1%;
+.image13{
+	height:210px;
+	margin-left:4%;
+	margin-top:4%;
+}
+
+.image14{
+	height:210px;
+	margin-left:3%;
+	margin-top:8%;
+}
+
+.contactdetail {
+    height: 250px;
+    margin-top: 70px;
+    margin-left: 50%;
+}
+
+.contactdetail h1 {
+    text-align: center;
+}
+
+.form {
+    margin-left: 150px;
+    margin-top: 70px;
+    float: left;
+}
+
+.form .form1 .form2 {
+    padding: 7px 197px 7px 5px;
+    margin-bottom: 10px;
+    border: none;
+    color: black;
+    border-radius: 5px;
+    border-bottom: 2px solid grey;
+}
+
+.form .form1 .form3 {
+    margin-bottom: 10px;
+    color: black;
+    border-radius: 5px;
+}
+
+.form .form1 .form4 {
+    padding: 15px 40px;
+    margin-left: 120px;
+    border: none;
+    color: black;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.form .form1 .form2:focus {
+    padding: 7px 197px 7px 5px;
+    margin-bottom: 10px;
+    color: black;
+    border-radius: 5px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+.form .form1 .form4:hover {
+    padding: 15px 40px;
+    margin-left: 120px;
+    border: none;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.detail {
+    height: 30%;
+    margin-left: 10%;
+}
+
+.detail img {
+    height: 60px;
+    width: 60px;
+    float: left;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.detail p {
+    margin-left: 80px;
+    padding-top: 20px;
+}
+
+.address {
+    width:40%;
+	padding-top:0 !important;
+}
+
+.job_form {
+    height: 1020px;
+    width: 800px;
+    margin: auto;
+    margin-top: 70px;
+    background-color: #f0f5f5;
+    font-family: raleway, serif;
+}
+
+.job_form h1 {
+    padding: 20px 0px 0px 20px;
+}
+
+.job_form hr {
+    width: 95%;
+    margin: auto;
+}
+
+.job_form p {
+    width: 95%;
+    text-align: left;
+    margin: auto;
+    padding-top: 20px;
+    line-height: 30px;
+}
+
+.job_form form {
+    width: 95%;
+    margin: auto;
+}
+
+.job_form form label {
+    font-weight: bold;
+}
+
+.job_form form .name {
+    padding: 9px 150px 9px 5px;
+    margin: 10px 30px 0px 0px;
+    border-radius: 5px;
+    border: 0.5px solid grey;
+}
+
+.job_form form .email {
+    padding: 9px 510px 9px 5px;
+    margin: 10px 30px 0px 0px;
+    border-radius: 5px;
+    border: 0.5px solid grey;
+}
+
+.job_form form #radio1 {
+    margin-left: 35%;
+}
+
+.job_form form #radio3 {
+    margin-left: 32.2%;
+}
+
+.job_form form .submit {
+    background-color: white;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-left: 40%;
+	cursor:pointer;
+}
+
+.table1{
+	background: linear-gradient(to right, rgba(40, 108, 154, 1) 0%, rgba(38, 117, 207, 1) 0%, rgba(40, 159, 210, 1) 41%, rgba(40, 159, 210, 1) 56%, rgba(40, 108, 154, 1) 100%);
+	width:70%;
+	margin:auto;
+	padding-left:10px;
+	line-height:25px;
+	text-align:justify;
+}
+
+.td1{
+	font-size: 25px;
+    padding-top: 10px;
+	font-weight:bold;
+	padding-bottom:10px;
+}
+
+.td2{
+	color:white;
+	font-size:16px;
+}
+
+.td2 a{
+	text-decoration:none;
+	float:right;
+	margin-right:2%;
+	margin-top:2%;
+	margin-bottom:2%;
+	color:black;
+	font-size:20px;
+	font-weight:bold;
+	background-color:white;
+	padding:8px 18px;
+	cursor:pointer;
+}
+
+.td2 a:hover{
+	background:none;
+	color:white;
 }
 
 footer {

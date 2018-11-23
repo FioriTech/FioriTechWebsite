@@ -18,7 +18,7 @@
             <div class="innertext">
                 <h1>END TO END WEB APPLICATION DEVELOPMENT SOLUTIONS AND SERVICES</h1>
                 <p>Fiori Technologies is a global IT products and services provider company having expertise in Information Security, Web Application Development, IT Outsourcing and Server Management.</p>
-                <a href="html_files/aboutus.html" id="learnmore">Learn More</a>
+                <a href="html_files/aboutus.php" id="learnmore">Learn More</a>
             </div>
             <div id="innerimage">
                 <img src="images/website_analytics_400development_vector_design_mobile_computing_analysis_web_flat_icons_modern_business_chart_illustration_concept.png" alt="website analytics">
@@ -54,7 +54,7 @@
                 <li>You can change the back ground.​</li>
                 <li>Can change the colour and theme on your website.​</li>
             </ul>
-            <a href="html_files/websitedevelopment.html">+Learn More</a>
+            <a href="html_files/websitedevelopment.php">+Learn More</a>
         </div>
         <div class="subservice">
             <p>Website Designing</p>
@@ -65,7 +65,7 @@
                 <li>Dynamic Websites with User Login</li>
                 <li>E-commerce Websites</li>
             </ul>
-            <a href="html_files/webdesigning.html">+Learn More</a>
+            <a href="html_files/webdesigning.php">+Learn More</a>
         </div>
     </div>
     <br />
@@ -86,7 +86,7 @@
                 <li>Online Marketing (SEO)</li>
                 <li>SMS Marketing</li>
             </ul>
-            <a href="html_files/digitalmarketing.html">+Learn More</a>
+            <a href="html_files/digitalmarketing.php">+Learn More</a>
         </div>
         <div class="subservice2">
             <p>Infrastructure Services</p>
@@ -95,7 +95,7 @@
                 <li>Dedicated Server</li>
                 <li>Cloud Virtual Private Servers</li>
             </ul>
-            <a href="html_files/infrastructureservice.html">+Learn More</a>
+            <a href="html_files/infrastructureservice.php">+Learn More</a>
         </div>
         <div class="subservice2">
             <p>Social Media Marketing</p>
@@ -105,7 +105,7 @@
                 <li>Twitter account management</li>
                 <li>Youtube channel creation & management</li>
             </ul>
-            <a href="html_files/digitalmarketing.html">+Learn More</a>
+            <a href="html_files/digitalmarketing.php">+Learn More</a>
         </div>
     </div>
     <div class="clear"></div>

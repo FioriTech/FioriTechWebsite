@@ -93,46 +93,46 @@
                         </div>
 
                         <div>
-                            <table cellspacing=0>
-                                <tr>
-                                    <th>SMS Credit</th>
-                                    <th>Price/SMS(INR) </th>
-                                    <th>Validity</th>
+                            <table cellspacing=0 class="table">
+                                <tr class="tr">
+                                    <th class="th">SMS Credit</th>
+                                    <th class="th">Price/SMS(INR) </th>
+                                    <th class="th">Validity</th>
                                 </tr>
-                                <tr>
-                                    <td>500 to 5,000</td>
-                                    <td>0.30</td>
-                                    <td>1 year</td>
+                                <tr class="tr">
+                                    <td class="td">500 to 5,000</td>
+                                    <td class="td">0.30</td>
+                                    <td class="td">1 year</td>
                                 </tr>
-                                <tr>
-                                    <td>10,000 to 20,000</td>
-                                    <td>0.25</td>
-                                    <td>1 year</td>
+                                <tr class="tr">
+                                    <td class="td">10,000 to 20,000</td>
+                                    <td class="td">0.25</td>
+                                    <td class="td">1 year</td>
                                 </tr>
-                                <tr>
-                                    <td>25,000 to 40,000</td>
-                                    <td>0.20</td>
-                                    <td>1 year</td>
+                                <tr class="tr">
+                                    <td class="td">25,000 to 40,000</td>
+                                    <td class="td">0.20</td>
+                                    <td class="td">1 year</td>
                                 </tr>
-                                <tr>
-                                    <td>50,000 to 75,000</td>
-                                    <td>0.18</td>
-                                    <td>1 year</td>
+                                <tr class="tr">
+                                    <td class="td">50,000 to 75,000</td>
+                                    <td class="td">0.18</td>
+                                    <td class="td">1 year</td>
                                 </tr>
-                                <tr>
-                                    <td>80,000 to 1,00,000</td>
-                                    <td>0.16</td>
-                                    <td>1 year</td>
+                                <tr class="tr">
+                                    <td class="td">80,000 to 1,00,000</td>
+                                    <td class="td">0.16</td>
+                                    <td class="td">1 year</td>
                                 </tr>
-                                <tr>
-                                    <td>1,10,000 to 2 lacs</td>
-                                    <td>0.15</td>
-                                    <td>1 year</td>
+                                <tr class="tr">
+                                    <td class="td">1,10,000 to 2 lacs</td>
+                                    <td class="td">0.15</td>
+                                    <td class="td">1 year</td>
                                 </tr>
-                                <tr>
-                                    <td>2 lac+</td>
-                                    <td>0.09</td>
-                                    <td>1 year</td>
+                                <tr class="tr">
+                                    <td class="td">2 lac+</td>
+                                    <td class="td">0.09</td>
+                                    <td class="td">1 year</td>
                                 </tr>
                             </table>
                         </div>
