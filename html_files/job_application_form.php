@@ -46,22 +46,34 @@
             <label>Would you like to list references?</label>
             <br>
             <br>
-            <input type="radio" name="reference" value="yes">Yes
+            <input type="radio" name="reference" value="yes" onclick="show()">Yes
             <br>
             <br>
-            <input type="radio" name="reference" value="no">No
+            <input type="radio" name="reference" value="no" onclick="hide()">No
+			<br>
             <br>
-            <br>
+			<div id="ref">
             <label>Name*</label><br><input type="text" name="ref_fname" placeholder="First" class="name">
             <input type="text" name="ref_lname" placeholder="Last" class="name">
             <br>
             <br>
             <label>Email*</label><br><input type="text" name="ref_email" placeholder="xyz@mail.com" class="email">
-            <br>
-            <br>
-            <br>
+			</div>
+			<script>
+			document.getElementById('ref').style.display='none';
+            function hide(){
+	        document.getElementById('ref').style.display='none';
+            }
+
+            function show(){
+	        document.getElementById('ref').style.display='inline';
+            }
+            </script>
+			<br>
+			<br>
             <input type="submit" name="submit" class="submit" placeholder="Submit">
         </form>
+		<br>
     </div>
 
     
