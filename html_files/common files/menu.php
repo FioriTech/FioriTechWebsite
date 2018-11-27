@@ -4,7 +4,7 @@
 ?>
 
 <div class="firstulist">
-    <a id="home" href="<?php echo $root_url ?>home.php" class="dropbtn">Home</a>
+    <a id="home" href="<?php echo $root_url ?>index.php" class="dropbtn">Home</a>
     <a id="aboutus" href="<?php echo $root_url.$sub_folder ?>aboutus.php" class="dropbtn">About Us</a>
     <div class="dropdown">
         <button id="services" class="dropbtn">Services</button>
