@@ -648,7 +648,7 @@ body {
 }
 
 .job_form {
-    height: 1020px;
+    height: auto;
     width: 800px;
     margin: auto;
     margin-top: 70px;
