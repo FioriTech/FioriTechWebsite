@@ -40,30 +40,30 @@
     </div>
 
     <div>
-        <table cellspacing=0>
-            <tr>
-                <th>FEATURES OF DYNAMIC WEBSITE</th>
-                <th>FEATURES OF E-COMMERCE WEBSITE</th>
+        <table cellspacing=0 class="table">
+            <tr class="tr">
+                <th class="th">FEATURES OF DYNAMIC WEBSITE</th>
+                <th class="th">FEATURES OF E-COMMERCE WEBSITE</th>
             </tr>
-            <tr>
-                <td>User Login Facility</td>
-                <td>Ecommerce/Shopping Website</td>
+            <tr class="tr">
+                <td class="td">User Login Facility</td>
+                <td class="td">Ecommerce/Shopping Website</td>
             </tr>
-            <tr>
-                <td>Profile Maintenance</td>
-                <td>Payment Gateway Integration & COD Facility</td>
+            <tr class="tr">
+                <td class="td">Profile Maintenance</td>
+                <td class="td">Payment Gateway Integration & COD Facility</td>
             </tr>
-            <tr>
-                <td>ID & Password Generation</td>
-                <td>Shopping Cart</td>
+            <tr class="tr">
+                <td class="td">ID & Password Generation</td>
+                <td class="td">Shopping Cart</td>
             </tr>
-            <tr>
-                <td>Dynamic Portals Like Naukri.com, Olx.com, Shaadi.com etc</td>
-                <td>All Facilities Support Like Auto SMS, Payment Reminder, Invoice Generation etc KNOW MORE</td>
+            <tr class="tr">
+                <td class="td">Dynamic Portals Like Naukri.com, Olx.com, Shaadi.com etc</td>
+                <td class="td">All Facilities Support Like Auto SMS, Payment Reminder, Invoice Generation etc KNOW MORE</td>
             </tr>
-            <tr>
-                <td>Admin Control to Add Or Edit Unlimited Pages</td>
-                <td>Admin Control to Add or Remove Products</td>
+            <tr class="tr">
+                <td class="td">Admin Control to Add Or Edit Unlimited Pages</td>
+                <td class="td">Admin Control to Add or Remove Products</td>
             </tr>
         </table>
     </div>
