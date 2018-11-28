@@ -565,18 +565,9 @@ body {
 	margin-top:8%;
 }
 
-.contactdetail {
-    height: 250px;
-    margin-top: 70px;
-    margin-left: 50%;
-}
-
-.contactdetail h1 {
-    text-align: center;
-}
 
 .form {
-    margin-left: 150px;
+    margin-left: 100px;
     margin-top: 70px;
     float: left;
 }
@@ -624,16 +615,37 @@ body {
     font-weight: bold;
 }
 
+.contactdetail {
+    margin-top: 70px;
+    margin-left: 40%;
+}
+
+.contactdetail h1 {
+    margin-left: 28%;
+}
+
+.canada{
+	float:left;
+	width:43%;
+	height:290px;
+	border-right:2px solid black;
+}
+
+.india{
+	width:48%;
+	display:inline-block;
+	margin-left:8%;
+}
+
+
 .detail {
     height: 30%;
-    margin-left: 10%;
 }
 
 .detail img {
     height: 60px;
     width: 60px;
     float: left;
-    margin-left: 5px;
     cursor: pointer;
 }
 
@@ -643,7 +655,28 @@ body {
 }
 
 .address {
-    width:40%;
+	width:60%;
+	padding-top:0 !important;
+}
+
+.detail1 {
+    height: 30%;
+}
+
+.detail1 img {
+    height: 60px;
+    width: 60px;
+    float: left;
+    cursor: pointer;
+}
+
+.detail1 p {
+    margin-left: 80px;
+    padding-top: 20px;
+}
+
+.address1 {
+    width:60%;
 	padding-top:0 !important;
 }
 
