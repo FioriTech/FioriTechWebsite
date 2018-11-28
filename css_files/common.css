@@ -763,7 +763,13 @@ footer {
 footer p {
     background: linear-gradient(to right, rgba(40, 108, 154, 1) 0%, rgba(38, 117, 207, 1) 0%, rgba(40, 159, 210, 1) 41%, rgba(40, 159, 210, 1) 56%, rgba(40, 108, 154, 1) 100%);
     height: 20px;
-    padding-top: 10px;
+    padding-top: 15px;
     padding-left: 8px;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
+}
+
+.widgets{
+	float:right;
+	margin-top:-6px;
+	padding-right:10px;
 }
