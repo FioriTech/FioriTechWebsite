@@ -29,13 +29,13 @@
         <h1>Contact Details</h1>
 		<div class="canada">
 		<h3>Canada Office:</h3>
-		 <div class="detail1">
+		 <div class="detail">
             <img src="../images/vector-free-download-png-3.png" alt="icon">
-            <p class="address1">2233 Argentia Road, Suites 302 & 302A, Mississauga, Ontario, L5N 2X7, Canada</p>
+            <p class="address">2233 Argentia Road, Suites 302 & 302A, Mississauga, Ontario, L5N 2X7, Canada</p>
         </div>
 		</div>
 		
-		<div class="india">
+		<div class="canada">
 		<h3>India Office:</h3>
         <div class="detail">
             <img src="../images/vector-free-download-png-3.png" alt="icon">
