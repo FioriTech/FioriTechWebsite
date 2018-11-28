@@ -616,27 +616,18 @@ body {
 }
 
 .contactdetail {
-    margin-top: 70px;
+    margin-top: 60px;
     margin-left: 40%;
 }
 
 .contactdetail h1 {
-    margin-left: 28%;
+    margin-left: 25%;
 }
 
 .canada{
+	width:49%;
 	float:left;
-	width:43%;
-	height:290px;
-	border-right:2px solid black;
 }
-
-.india{
-	width:48%;
-	display:inline-block;
-	margin-left:8%;
-}
-
 
 .detail {
     height: 30%;
@@ -656,27 +647,6 @@ body {
 
 .address {
 	width:60%;
-	padding-top:0 !important;
-}
-
-.detail1 {
-    height: 30%;
-}
-
-.detail1 img {
-    height: 60px;
-    width: 60px;
-    float: left;
-    cursor: pointer;
-}
-
-.detail1 p {
-    margin-left: 80px;
-    padding-top: 20px;
-}
-
-.address1 {
-    width:60%;
 	padding-top:0 !important;
 }
 
