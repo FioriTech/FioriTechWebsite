@@ -5,6 +5,7 @@
     <title>Fiori Technologies</title>
     <link href="../css_files/common.css" type="text/css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Raleway|Roboto" rel="stylesheet">
+	<link rel="shortcut icon" type="image/png" href="../images/favicon.ico"/>
 </head>
 
 <body>
