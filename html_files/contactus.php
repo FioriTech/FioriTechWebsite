@@ -43,11 +43,11 @@
             <p class="address">356, Aggarwal Metro Heights, Netaji Subash Place, Pitampura, Delhi-110034</p>
         </div>
         <div class="detail">
-            <img src="../images/kisspng-computer-icons-telephone-call-symbol-phone-vector-5ad050946903f3.3287647915236015564302.png" alt="icon">
+            <img src="../images/kisspng-computer-icons-telephone.png" alt="icon">
             <p>+91-7210603373</p>
         </div>
 		<div class="detail">
-            <img src="../images/kisspng-email-computer-icons-maxcuttm-inc-email-vector-5adb312ae6e962.6943741815243144109458.png" alt="icon">
+            <img src="../images/kisspng-email.png" alt="icon">
             <p>info@FioriTech.com</p>
         </div>
 		</div>

@@ -22,7 +22,7 @@
                 <a href="html_files/aboutus.php" id="learnmore">Learn More</a>
             </div>
             <div id="innerimage">
-                <img src="images/website_analytics_400development_vector_design_mobile_computing_analysis_web_flat_icons_modern_business_chart_illustration_concept.png" alt="website analytics">
+                <img src="images/website_analytics.png" alt="website analytics">
             </div>
         </div>
         <div class="design">
