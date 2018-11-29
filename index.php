@@ -5,7 +5,7 @@
     <title>Fiori Technologies</title>
     <link href="css_files/common.css" type="text/css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Raleway|Roboto" rel="stylesheet">
-	<link rel="shortcut icon" type="image/png" href="images/favicon.ico"/>
+	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico"/>
 </head>
 
 <body>
@@ -114,7 +114,7 @@
     <?php include 'html_files/common files/footer.php' ?>
 	<a href="https://www.linkedin.com/company/fioritechnologies/" class="widgets" target="_blank"><img src="images/linkedin.png" alt="linkedin logo" height="40px"></a>
 	
-	<a href="#" class="widgets"><img src="images/twitter.png" alt="twitter logo" height="40px"></a>
+	<a href="https://twitter.com/FioriTech" target="_blank" class="widgets"><img src="images/twitter.png" alt="twitter logo" height="40px"></a>
 	
 	<a href="https://www.facebook.com/FioriTech/" class="widgets" target="_blank"><img src="images/facebook.png" alt="facebook logo" height="40px"></a>
 	
