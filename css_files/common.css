@@ -16,6 +16,10 @@ body {
     content: "About Us";
 }
 
+.logo{
+	background-color:white;
+}
+
 .firstulist {
     float: right;
     margin-right: 3%;
@@ -625,7 +629,7 @@ body {
 }
 
 .contactdetail {
-    margin-top: 60px;
+    margin-top: 50px;
     margin-left: 40%;
 }
 
@@ -633,13 +637,25 @@ body {
     margin-left: 25%;
 }
 
-.canada{
-	width:49%;
-	float:left;
+.detailemail {
+    margin-bottom:3%;
+}
+
+.detailemail img {
+    height: 60px;
+    width: 60px;
+    float: left;
+    cursor: pointer;
+}
+
+.detailemail p {
+    margin-left: 80px;
+    padding-top: 20px;
 }
 
 .detail {
-    height: 30%;
+	width:49%;
+	display:inline-block;
 }
 
 .detail img {
@@ -651,13 +667,25 @@ body {
 
 .detail p {
     margin-left: 80px;
-    padding-top: 20px;
 }
 
 .address {
 	width:60%;
 	padding-top:0 !important;
 }
+
+.mapouter {
+	text-align:right;
+	height:163px;
+	width:88%;
+	}
+
+.gmap_canvas {
+	overflow:hidden;
+	background:none!important;
+	height:163px;
+	width:88%;
+	}
 
 .job_form {
     height: auto;

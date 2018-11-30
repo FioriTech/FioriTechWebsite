@@ -5,13 +5,13 @@
     <title>Fiori Technologies</title>
     <link href="../css_files/common.css" type="text/css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Raleway|Roboto" rel="stylesheet">
-	<link rel="shortcut icon" type="image/x-icon" href="../images/favicon.ico"/>
+	<link rel="shortcut icon" type="image/png" href="../images/favicon.png"/>
 </head>
 
 <body>
     <div class="image1">
         <div>
-            <img src="../images/Fiori.png" height="90px" alt="FioriTech logo">
+            <img src="../images/Fiori.png" height="90px" alt="FioriTech logo" class="logo">
             <?php include 'common files/menu.php' ?>
         </div>
     </div>
@@ -72,6 +72,10 @@
             </script>
 			<br>
 			<br>
+			<?php 
+			$job_type=$_GET['job_type']; 
+			?>
+			<input type="hidden" value="<?php echo $job_type ?>" name="job_type" />
             <input type="submit" name="submit" class="submit" placeholder="Submit">
         </form>
 		<br>
