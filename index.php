@@ -9,6 +9,16 @@
 </head>
 
 <body>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v3.2';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
     <div class="image">
         <div>
             <img src="images/Fiori.png" alt="FioriTech Logo" height="90px">
@@ -32,7 +42,10 @@
     <div class="clear"></div>
     <div class="paragraph">
         <p>Fiori Technologies is a global IT products and services provider company having expertise in Information Security, Web Application Development, IT Outsourcing and Server Management. We have a wide range of certified consultants having vast experience in Information Technology. We incorporated with Mission to empower Customers, effectively manage their "Digital Assets", to protect, comply and grow business profitably, in the Data, Network and Application (DNA of every business) protection and management space.</p>
+		
+		<div class="fb-page" data-href="https://www.facebook.com/FioriTech/" height="200px" data-tabs="timeline" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/FioriTech/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/FioriTech/">Fiori Technologies</a></blockquote></div>
     </div>
+	
     <div class="service">
         <h1 id="serviceheading">Our Services</h1>
         <div class="subservice">
