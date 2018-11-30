@@ -72,6 +72,10 @@
             </script>
 			<br>
 			<br>
+			<?php 
+			$job_type=$_GET['job_type']; 
+			?>
+			<input type="hidden" value="<?php echo $job_type ?>" name="job_type" />
             <input type="submit" name="submit" class="submit" placeholder="Submit">
         </form>
 		<br>
