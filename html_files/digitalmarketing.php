@@ -13,7 +13,7 @@
             <img src="../images/Fiori.png" height="90px" alt="FioriTech logo">
             <?php include 'common files/menu.php' ?>
         </div>
-        <div class="webdesign">
+        <div class="pagetitle">
             <p><b>Digital Marketing</b></p>
         </div>
     </div>

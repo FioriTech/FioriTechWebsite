@@ -111,12 +111,6 @@
     </div>
     <div class="clear"></div>
     
-    <?php include 'html_files/common files/footer.php' ?>
-	<a href="https://www.linkedin.com/company/fioritechnologies/" class="widgets" target="_blank"><img src="images/linkedin.png" alt="linkedin logo" height="40px"></a>
-	
-	<a href="https://twitter.com/FioriTech" target="_blank" class="widgets"><img src="images/twitter.png" alt="twitter logo" height="40px"></a>
-	
-	<a href="https://www.facebook.com/FioriTech/" class="widgets" target="_blank"><img src="images/facebook.png" alt="facebook logo" height="40px"></a>
-	
+    <?php include 'html_files/common files/footer.php' ?>	
 </body>
 </html>

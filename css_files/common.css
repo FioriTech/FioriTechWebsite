@@ -278,7 +278,7 @@ body {
     font-size: 50px;
 }
 
-.webdesign {
+.pagetitle {
     margin-top: 50px;
     margin-left: 30%;
     padding: 8px;
@@ -288,7 +288,7 @@ body {
     border-radius: 10px 10px;
 }
 
-.webdesign p {
+.pagetitle p {
     margin-top: 20px;
     text-align:center;
     font-size: 45px;

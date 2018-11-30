@@ -15,7 +15,7 @@
             <?php include 'common files/menu.php' ?>
         </div>
         <div style="clear:both;"></div>
-        <div class="webdesign">
+        <div class="pagetitle">
             <p><b>YouForm</b></p>
         </div>
     </div>
