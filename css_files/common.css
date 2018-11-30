@@ -16,6 +16,10 @@ body {
     content: "About Us";
 }
 
+.logo{
+	background-color:white;
+}
+
 .firstulist {
     float: right;
     margin-right: 3%;
