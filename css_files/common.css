@@ -136,9 +136,18 @@ body {
 .paragraph {
     line-height: 30px;
     padding: 5px;
-    width: 55%;
     text-align: justify;
     margin-left: 10%;
+}
+
+.paragraph p{
+	float:left;
+	width:62%;
+}
+
+.paragraph .fb-page{
+	margin-left:4%;
+	margin-top:2%;
 }
 
 .service {
