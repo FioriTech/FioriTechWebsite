@@ -11,7 +11,7 @@
 <body>
     <div class="image1">
         <div>
-            <img src="../images/Fiori.png" height="90px" alt="FioriTech Logo">
+            <img src="../images/Fiori.png" height="90px" alt="FioriTech Logo" class="logo">
             <?php include 'common files/menu.php' ?>
         </div>
     </div>
