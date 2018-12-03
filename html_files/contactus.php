@@ -28,29 +28,24 @@
     </div>
     <div class="contactdetail">
         <h1>Contact Details</h1>
-		<div class="detailemail">
+		<div class="detail">
             <img src="../images/kisspng-email.png" alt="icon">
             <p>info@FioriTech.com</p>
         </div>
-		
-		
+			
 		 <div class="detail">
 		 <h3>Canada Office:</h3>
+		 <a href="https://www.google.com/maps/place/Regus+-+Ontario,+Mississauga+-+Argentia+Road/@43.5977054,-79.7478247,17z/data=!3m1!4b1!4m5!3m4!1s0x882b6a874d5777ab:0x96e40d4d200f4b9b!8m2!3d43.5977015!4d-79.745636" target="_blank">
             <img src="../images/vector-free-download-png-3.png" alt="icon">
-            <p class="address">2233 Argentia Road, Suites 302 & 302A, Mississauga, Ontario, L5N 2X7, Canada.</p>
-			<br>
-			<div class="mapouter"><div class="gmap_canvas"><iframe width="404" height="163" id="gmap_canvas" src="https://maps.google.com/maps?q=2233%20Argentia%20Road%2C%20Suites%20302%20%26%20302A%2C%20Mississauga%2C%20Ontario%2C%20L5N%202X7%2C%20Canada&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.pureblack.de">pure black</a></div>
-			</div>
+            <p class="address">2233 Argentia Road, Suites 302 & 302A, Mississauga, Ontario, L5N 2X7, Canada.</p></a>
 		</div>
-		
 		
         <div class="detail">
 		<h3>India Office:</h3>
+		<a href="https://www.google.com/maps/place/Aggarwal+Metro+Heights+Bajaj+Office/@28.6930704,77.1470674,17z/data=!3m1!4b1!4m5!3m4!1s0x390d023339de0cb5:0xe5be4310e315c1c7!8m2!3d28.6930657!4d77.1492561" target="_blank">
             <img src="../images/vector-free-download-png-3.png" alt="icon">
             <p class="address">356, Aggarwal Metro Heights, Netaji Subash Place, Pitampura, Delhi-110034.<br>
-			Contact: +91-7210603373</p>
-			<div class="mapouter"><div class="gmap_canvas"><iframe width="404" height="163" id="gmap_canvas" src="https://maps.google.com/maps?q=356%2C%20Aggarwal%20Metro%20Heights%2C%20Netaji%20Subash%20Place%2C%20Pitampura%2C%20Delhi-110034&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.pureblack.de">pure black</a></div>
-			</div>
+			Contact: +91-7210603373</p></a>
         </div>
     </div>
    
