@@ -580,7 +580,7 @@ body {
 
 
 .form {
-    margin-left: 100px;
+    margin-left: 10%;
     margin-top: 70px;
     float: left;
 }
@@ -630,48 +630,39 @@ body {
 
 .contactdetail {
     margin-top: 50px;
-    margin-left: 40%;
+    margin-left: 50%;
 }
 
 .contactdetail h1 {
     margin-left: 25%;
 }
 
-.detailemail {
-    margin-bottom:3%;
-}
-
-.detailemail img {
-    height: 60px;
-    width: 60px;
-    float: left;
-    cursor: pointer;
-}
-
-.detailemail p {
-    margin-left: 80px;
-    padding-top: 20px;
-}
-
 .detail {
 	width:49%;
-	display:inline-block;
+    margin-left: 10%;
+	margin-bottom:5%;
 }
 
 .detail img {
     height: 60px;
     width: 60px;
     float: left;
-    cursor: pointer;
 }
 
 .detail p {
     margin-left: 80px;
+	padding-top:20px;
+}
+
+.detail a{
+	text-decoration:none;
+	cursor: pointer;
 }
 
 .address {
-	width:60%;
+	width:70%;
 	padding-top:0 !important;
+	color:black;
 }
 
 .mapouter {
