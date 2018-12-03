@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 23, 2018 at 03:04 PM
+-- Generation Time: Dec 03, 2018 at 02:31 PM
 -- Server version: 10.1.19-MariaDB
 -- PHP Version: 5.6.28
 
@@ -41,9 +41,9 @@ CREATE TABLE `career` (
 --
 
 INSERT INTO `career` (`id`, `job_type`, `location`, `job_code`, `experience`, `openings`, `requirement`) VALUES
-(1, 'Digital Marketing Executive', 'Delhi', '00102', '0-3 Years', '1', 'Good skills in Email Marketing, Content Marketing, Web Analytics, SEO & Social Media Marketing. Excellent verbal and written English communication. Eagerness to learn and grow in the digital marketing industry. Analytical mindset and critical thinking.'),
-(2, 'Senior Web Developer', 'Delhi', '00102', '2-5 Years', '3', 'Good skills in Core PHP, wordpress, Magento, Shopify, MYSQL, XML, HTML, DHTML, Java Script, JQuery. Google & Third Party API Integration Developed PHP Applications with various IDE tools like Eclipse.'),
-(3, 'Web Developer', 'Delhi', '00101', '0-1 Year', '2', 'Need experience in HTMLCSS, JavaScript, jQuery, Ajax Good with PHP, MySQL, Bootstrap Very good communication skills.');
+(1, 'Digital Marketing Executive', 'Delhi', '00102', '0-3 Years', '1', '<ul>\r\n<li>Good Skills in Email Marketing, Content Marketing, Web Analytics</li>\r\n<li>SEO & Social Media Marketing</li>\r\n<li>Excellent Verbal and written English Communication</li>\r\n<li>Eagerness to learn and grow in digital marketing field</li>\r\n<li>Analytical mindset and critical thinking</li>\r\n</ul>'),
+(2, 'Senior Web Developer', 'Delhi', '00102', '2-5 Years', '3', '<ul>\r\n<li>Good skills in Core PHP, wordpress, Magento, Shopify, MYSQL, XML, HTML, DHTML, Java Script, JQuery</li>\r\n<li>Google & Third Party API Integration</li>\r\n<li>Developed PHP Applications with various IDE tools like Eclipse</li>\r\n</ul>'),
+(3, 'Web Developer', 'Delhi', '00101', '0-1 Year', '2', '<ul>\r\n<li>Need experience in HTML, CSS, JavaScript, jQuery, Ajax</li>\r\n<li>Good with PHP, MySQL, Bootstrap</li> <li>Very good communication skills</li>\r\n</ul>');
 
 -- --------------------------------------------------------
 
@@ -73,22 +73,9 @@ CREATE TABLE `job_application_form` (
   `last_name` varchar(100) NOT NULL,
   `email` varchar(100) NOT NULL,
   `phone_no` varchar(100) NOT NULL,
-  `employment_status` varchar(100) NOT NULL,
   `resume_url` varchar(200) NOT NULL,
-  `reference` varchar(100) NOT NULL,
-  `ref_first_name` varchar(100) NOT NULL,
-  `ref_last_name` varchar(100) NOT NULL,
-  `ref_email` varchar(100) NOT NULL,
   `job_type` varchar(100) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
---
--- Dumping data for table `job_application_form`
---
-
-INSERT INTO `job_application_form` (`id`, `first_name`, `last_name`, `email`, `phone_no`, `employment_status`, `resume_url`, `reference`, `ref_first_name`, `ref_last_name`, `ref_email`, `job_type`) VALUES
-(1, 'love', 'sharma', 'lokesharma95@gmail.com', '9711137280', 'Employed', 'any', 'yes', 'nikhil', 'khapre', 'nikhil.khapre', ''),
-(2, 'love', 'sharma', 'lokeshs301@gmail.com', '9711137280', 'Employed', 'any', 'yes', 'nikhil', 'khapre', 'nikhil.khapre', '');
 
 --
 -- Indexes for dumped tables
@@ -130,7 +117,7 @@ ALTER TABLE `contactus`
 -- AUTO_INCREMENT for table `job_application_form`
 --
 ALTER TABLE `job_application_form`
-  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
