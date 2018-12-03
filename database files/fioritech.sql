@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 03, 2018 at 02:31 PM
+-- Generation Time: Dec 03, 2018 at 03:11 PM
 -- Server version: 10.1.19-MariaDB
 -- PHP Version: 5.6.28
 
@@ -74,6 +74,7 @@ CREATE TABLE `job_application_form` (
   `email` varchar(100) NOT NULL,
   `phone_no` varchar(100) NOT NULL,
   `resume_url` varchar(200) NOT NULL,
+  `message` varchar(300) NOT NULL,
   `job_type` varchar(100) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
@@ -117,7 +118,7 @@ ALTER TABLE `contactus`
 -- AUTO_INCREMENT for table `job_application_form`
 --
 ALTER TABLE `job_application_form`
-  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
