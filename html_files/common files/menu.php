@@ -39,7 +39,7 @@
     var url = window.location.href.replace(/\/$/, '');
     var parts = url.split('/').pop(); 
     var lastSegment = parts.split(".")[0];
-	if(lastSegment === 'fioritech' || lastSegment === 'clients'){
+	if(lastSegment === 'clients'){
 		lastSegment = 'client';
 	}
 	if(lastSegment === 'fioritech' || lastSegment === 'index'){
