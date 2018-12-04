@@ -22,7 +22,7 @@ if(mysqli_num_rows($run)>0)
 
 		<tr class='tr1'><td class='td2'>Requirements:</td></tr>
 		<tr class='tr1'><td class='td2'>$requirement</td></tr>
-		<tr><td class='td2'><a href='job_application_form.php?job_type=".$row["job_type"]."'>Apply</a></td></tr>
+		<tr><td class='td2'><a href='job_application_form.php?job_type=$job_type&job_code=$job_code'>Apply</a></td></tr>
 		</table>
 			";
 	    }
