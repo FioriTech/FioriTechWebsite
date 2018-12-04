@@ -784,6 +784,19 @@ body {
 	color:white;
 }
 
+.container{
+	display:flex;
+	justify-content:space-around;
+}
+
+.box{
+	height:90px;
+	width:250px;
+	display:inline-block;
+	text-align:center;
+}
+
+
 footer {
     height: 10px;
 }
