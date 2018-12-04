@@ -30,6 +30,7 @@
             <a id="youguard" name="tech" href="<?php echo $root_url.$sub_folder ?>youguard.php">YouGuard</a>
         </div>
     </div>
+	<a id="client" href="<?php echo $root_url.$sub_folder ?>clients.php" class="dropbtn">Clients</a>
     <a id="career" href="<?php echo $root_url.$sub_folder ?>career.php" class="dropbtn">Career</a>
     <a id="contactus" href="<?php echo $root_url.$sub_folder ?>contactus.php" class="dropbtn">Contact Us</a>
 </div>
@@ -38,6 +39,12 @@
     var url = window.location.href.replace(/\/$/, '');
     var parts = url.split('/').pop(); 
     var lastSegment = parts.split(".")[0];
+	if(lastSegment === 'fioritech' || lastSegment === 'clients'){
+		lastSegment = 'client';
+	}
+	if(lastSegment === 'fioritech' || lastSegment === 'index'){
+		lastSegment = 'home';
+	}
     document.getElementById(lastSegment).classList.add("active");
     
     if(document.getElementById(lastSegment).getAttribute("name") == "services")
