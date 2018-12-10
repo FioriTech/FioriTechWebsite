@@ -6,15 +6,17 @@
     <link href="../css_files/common.css" type="text/css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Raleway|Roboto" rel="stylesheet">
 	<link rel="shortcut icon" type="image/png" href="../images/favicon.png"/>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
     <div class="image1">
-        <div>
-            <img src="../images/Fiori.png" height="90px" alt="FioriTech logo" class="logo">
-            <?php include 'common files/menu.php' ?>
-        </div>
-        <div style="clear:both;"></div>
+        <header>
+      <img src="../images/Fiori.png" alt="FioriTech Logo" height="90px" class="logo">
+	  <?php include 'common files/menu.php' ?>
+	  </header>
+	  <div class="clear"></div>
         <div class="pagetitle">
             <p><b>Our Clients</b></p>
         </div>
@@ -23,11 +25,12 @@
 	<br>
 	<br>
 	<br>
+	<br>
     <div class="clear"></div>
 	<div class="container">
 	<div class="box"><a href="https://www.drdo.gov.in/drdo/labs1/SAG/English/indexnew.jsp?pg=homepage.jsp" target="_blank"><img src="../images/DRDO.png" alt="DRDO logo" height="80px"></a></div>
-	<div class="box"><a href="https://www.airtel.in/" target="_blank"><img src="../images/Airtel.png" alt="airtel logo" class="clientslogo" height="80px"></a></div>
-	<div class="box"><a href="https://www.samsungsds.com/" target="_blank"><img src="../images/Samsung.png" alt="Samsung logo" class="clientslogo" height="60px" width="290px"></a></div>
+	<div class="box"><a href="https://www.airtel.in/" target="_blank"><img src="../images/Airtel.png" alt="airtel logo" height="80px"></a></div>
+	<div class="box"><a href="https://www.samsungsds.com/" target="_blank"><img src="../images/Samsung.png" alt="Samsung logo" height="60px" width="290px"></a></div>
 	</div>
 	<br>
 	<div class="container">
