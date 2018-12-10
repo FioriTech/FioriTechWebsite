@@ -6,6 +6,9 @@
     <link href="css_files/common.css" type="text/css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Raleway|Roboto" rel="stylesheet">
 	<link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
@@ -20,10 +23,10 @@
 }(document, 'script', 'facebook-jssdk'));</script>
 
     <div class="image">
-        <div>
-            <img src="images/Fiori.png" alt="FioriTech Logo" height="90px" class="logo">
-            <?php include 'html_files/common files/menu.php' ?>
-        </div>
+        <header>
+      <img src="images/Fiori.png" alt="FioriTech Logo" height="90px" class="logo">
+	  <?php include 'html_files/common files/menu.php' ?>
+	  </header>
         <div class="clear"></div>
         <div id="innercontent">
             <div class="innertext">
@@ -35,6 +38,7 @@
                 <img src="images/website_analytics.png" alt="website analytics">
             </div>
         </div>
+		<div class="clear"></div>
         <div class="design">
             <p>Fiori Technologies</p>
         </div>

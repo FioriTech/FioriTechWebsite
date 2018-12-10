@@ -5,19 +5,23 @@
     <link href="../css_files/common.css" type="text/css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Raleway|Roboto" rel="stylesheet">
 	<link rel="shortcut icon" type="image/png" href="../images/favicon.png"/>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
     <div class="image1">
-        <div>
-            <img src="../images/Fiori.png" height="90px" alt="FioriTech logo" class="logo">
-            <?php include 'common files/menu.php' ?>
-        </div>
+        <header>
+      <img src="../images/Fiori.png" alt="FioriTech Logo" height="90px" class="logo">
+	  <?php include 'common files/menu.php' ?>
+	  </header>
+	  <div class="clear"></div>
         <div class="pagetitle">
             <p><b>Digital Marketing</b></p>
         </div>
     </div>
     <br>
+	<br>
 	<br>
 	<br>
 	<br>
@@ -69,7 +73,6 @@
                     </ul>    
                     <img src="../images/seo.jpg" class="image5" alt="image" />
                 </div>
-                <div>
                     <br />
 
                     <div class="firstblock1">
