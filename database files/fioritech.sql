@@ -1,13 +1,15 @@
 -- phpMyAdmin SQL Dump
--- version 4.5.1
--- http://www.phpmyadmin.net
+-- version 4.8.3
+-- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 05, 2018 at 04:13 AM
--- Server version: 10.1.19-MariaDB
--- PHP Version: 5.6.28
+-- Generation Time: Jan 11, 2019 at 04:03 PM
+-- Server version: 10.1.37-MariaDB
+-- PHP Version: 7.2.12
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET AUTOCOMMIT = 0;
+START TRANSACTION;
 SET time_zone = "+00:00";
 
 
@@ -44,6 +46,39 @@ INSERT INTO `career` (`id`, `job_type`, `location`, `job_code`, `experience`, `o
 (1, 'Digital Marketing Executive', 'Delhi', '00102', '0-3 Years', '1', 'Good Skills in Email Marketing, Content Marketing, Web Analytics, \r\nSEO & Social Media Marketing\r\nExcellent Verbal and written English Communication\r\nEagerness to learn and grow in digital marketing field\r\nAnalytical mindset and critical thinking\r\n'),
 (2, 'Senior Web Developer', 'Delhi', '00102', '2-5 Years', '3', 'Good skills in Core PHP, wordpress, Magento, Shopify, MYSQL, XML, HTML, DHTML, Java Script, JQuery\r\nGoogle & Third Party API Integration\r\nDeveloped PHP Applications with various IDE tools like Eclipse\r\n'),
 (3, 'Web Developer', 'Delhi', '00101', '0-1 Year', '2', 'Need experience in HTML, CSS, JavaScript, jQuery, Ajax\r\nGood with PHP, MySQL, Bootstrap, Very good communication skills\r\n');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `clients`
+--
+
+CREATE TABLE `clients` (
+  `id` int(10) UNSIGNED NOT NULL,
+  `logo` varchar(255) NOT NULL,
+  `logo_alt` varchar(255) NOT NULL,
+  `hyperlink` varchar(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `clients`
+--
+
+INSERT INTO `clients` (`id`, `logo`, `logo_alt`, `hyperlink`) VALUES
+(1, 'DRDO.png', 'DRDO logo', 'https://www.drdo.gov.in/drdo/labs1/SAG/English/indexnew.jsp?pg=homepage.jsp'),
+(2, 'Airtel.png', 'airtel logo', 'https://www.airtel.in/'),
+(3, 'Samsung.png', 'Samsung logo', 'https://www.samsungsds.com/'),
+(4, 'Railtel.png', 'Railtel logo', 'https://www.railtelindia.com/'),
+(5, 'bankbazaar.jpg', 'bankbazaar logo', 'https://www.bankbazaar.com/'),
+(6, 'Brightstar.png', 'Brightstar logo', 'http://www.brightstarcorp.in/'),
+(7, 'PowerGrid.png', 'PowerGrid logo', 'https://www.powergridindia.com/'),
+(8, 'NRI.png', 'NRI logo', 'http://www.nrifintech.com/'),
+(9, 'matrimony.jpg', 'matrimony logo', 'https://www.matrimony.com/'),
+(10, 'airforce.png', 'airforce logo', 'http://indianairforce.nic.in/content/eastern-air-command'),
+(11, 'Karix.png', 'Karix logo', 'http://www.karix.com/'),
+(12, 'thapar.png', 'thapar logo', 'http://www.thapar.edu/'),
+(13, 'tafe.png', 'tafe logo', 'https://www.tafe.com/'),
+(14, 'qa_infotech.png', 'QA infotech logo', 'https://www.qainfotech.com/');
 
 -- --------------------------------------------------------
 
@@ -99,6 +134,12 @@ ALTER TABLE `career`
   ADD PRIMARY KEY (`id`);
 
 --
+-- Indexes for table `clients`
+--
+ALTER TABLE `clients`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Indexes for table `contactus`
 --
 ALTER TABLE `contactus`
@@ -119,16 +160,26 @@ ALTER TABLE `job_application_form`
 --
 ALTER TABLE `career`
   MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+
+--
+-- AUTO_INCREMENT for table `clients`
+--
+ALTER TABLE `clients`
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
+
 --
 -- AUTO_INCREMENT for table `contactus`
 --
 ALTER TABLE `contactus`
   MODIFY `id` int(10) NOT NULL AUTO_INCREMENT;
+
 --
 -- AUTO_INCREMENT for table `job_application_form`
 --
 ALTER TABLE `job_application_form`
   MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+COMMIT;
+
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

@@ -8,6 +8,8 @@
 	<link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="owl_carousel/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="owl_carousel/css/owl.theme.default.min.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
@@ -127,7 +129,60 @@
         </div>
     </div>
     <div class="clear"></div>
-    
+    <div class="clients_carousal">
+        <h1 id="serviceheading" style="color: black;">Our Clients</h1>
+        <br>
+        <div class='owl-carousel owl-theme'>
+            <?php
+            include "html_files/backend/connection.php";
+             
+            $run_query="SELECT * FROM clients";
+            $query=mysqli_query($con,$run_query);
+            while($row = mysqli_fetch_array($query))
+            {
+                $slideimages[] = $row;
+            }
+
+            foreach ($slideimages as $images) 
+            {
+
+            ?>
+
+                 <div class='item'><a href="<?php echo $images['hyperlink']; ?>" target="_blank"><img src="images/<?php echo $images['logo']; ?>" alt="<?php echo $images['logo_alt']; ?>" /></a></div>
+                            
+            <?php
+             } 
+
+             ?>
+        </div>
+        
+    </div>
+    <br>
+    <br>
     <?php include 'html_files/common files/footer.php' ?>	
 </body>
+<script src="owl_carousel/js/jquery.min.js"></script>
+<script src="owl_carousel/js/owl.carousel.js"></script>
+<script>
+$('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:15,
+    nav:true,
+    autoplay:true,
+    autoplayTimeout:2000,
+    autoplayHoverPause:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:4
+        }
+    }
+})
+
+</script>
 </html>

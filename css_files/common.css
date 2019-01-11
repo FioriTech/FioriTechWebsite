@@ -1375,6 +1375,25 @@ header nav ul li ul li a:hover {
 }
 }
 
+.clients_carousal{
+    width: 90%;
+    margin: auto;
+}
+
+.item img{
+            width: 200px;
+            height: 100px;
+            display: block;
+            overflow: hidden;
+}
+
+@media (max-width:900px){
+    .item img{
+            height: 120px;
+}
+}
+
+
 footer {
     height: 50px;
 	width:100%;
