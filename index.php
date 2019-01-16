@@ -7,6 +7,10 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway|Roboto" rel="stylesheet">
 	<link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
 	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="owl_carousel/css/owl.carousel.min.css">
     <link rel="stylesheet" href="owl_carousel/css/owl.theme.default.min.css">
@@ -29,6 +33,8 @@
       <img src="images/Fiori.png" alt="FioriTech Logo" height="90px" class="logo">
 	  <?php include 'html_files/common files/menu.php' ?>
 	  </header>
+        <div class="clear"></div>
+        <?php include'html_files/common files/login.php' ?>
         <div class="clear"></div>
         <div id="innercontent">
             <div class="innertext">

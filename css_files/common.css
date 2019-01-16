@@ -109,6 +109,55 @@ header nav ul li ul li a:hover {
   border-radius: 8px;
 }
 
+#mySidenav a {
+  position: fixed;
+  left: -100px;
+  transition: 0.3s;
+  padding: 10px;
+  width: 130px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+  z-index: 99;
+}
+
+#mySidenav a:hover {
+  left: 0;
+}
+
+#register {
+  top: 340px;
+  background-color: rgb(255, 102, 0);
+}
+
+#login {
+  top: 400px;
+  background-color: #2196F3;
+}
+
+.login_form input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+.login_form input[type=Password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+.login_form input[type=submit] {
+  padding: 12px 25px;
+  border: none;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+}
+
+
 
 .menu-toggle {
   color: #fff;
