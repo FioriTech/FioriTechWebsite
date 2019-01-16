@@ -10,6 +10,7 @@
           <li class="sub-menu"><a id="services" href="#">Services</a>
             <ul>
               <li><a id="webdesigning" name="services" href="<?php echo $root_url.$sub_folder ?>webdesigning.php">Website Designing</a></li>
+              <li><a id="roboticProcessAutomation" name="services" href="<?php echo $root_url.$sub_folder ?>RPA.php">Robotic Process Automation (RPA)</a></li>
               <li><a id="websitedevelopment" name="services" href="<?php echo $root_url.$sub_folder ?>websitedevelopment.php">Website Development</a></li>
               <li><a id="digitalmarketing" name="services" href="<?php echo $root_url.$sub_folder ?>digitalmarketing.php">Digital Marketing</a></li>
               <li><a id="infrastructureservice" name="services" href="<?php echo $root_url.$sub_folder ?>infrastructureservice.php">Infrastructure Services</a></li>
@@ -86,6 +87,9 @@
 	if(lastSegment === 'clients'){
 		lastSegment = 'client';
 	}
+  if(lastSegment === 'RPA'){
+    lastSegment = 'roboticProcessAutomation';
+  }
 	if(lastSegment === 'fioritech' || lastSegment === 'index'){
 		lastSegment = 'home';
 	}
