@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 16, 2019 at 11:26 AM
+-- Generation Time: Jan 29, 2019 at 08:29 AM
 -- Server version: 10.1.37-MariaDB
 -- PHP Version: 7.2.12
 
@@ -78,7 +78,8 @@ INSERT INTO `clients` (`id`, `logo`, `logo_alt`, `hyperlink`) VALUES
 (11, 'Karix.png', 'Karix logo', 'http://www.karix.com/'),
 (12, 'thapar.png', 'thapar logo', 'http://www.thapar.edu/'),
 (13, 'tafe.png', 'tafe logo', 'https://www.tafe.com/'),
-(14, 'qa_infotech.png', 'QA infotech logo', 'https://www.qainfotech.com/');
+(14, 'qa_infotech.png', 'QA infotech logo', 'https://www.qainfotech.com/'),
+(15, 'election-commission-logo.jpg', 'election commission logo', 'https://eci.gov.in/');
 
 -- --------------------------------------------------------
 
@@ -193,7 +194,7 @@ ALTER TABLE `career`
 -- AUTO_INCREMENT for table `clients`
 --
 ALTER TABLE `clients`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
 
 --
 -- AUTO_INCREMENT for table `contactus`
