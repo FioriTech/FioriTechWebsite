@@ -52,6 +52,7 @@
 	</div>
 	<br>
 	<div class="container">
+	<div class="box"><a href="https://eci.gov.in/" target="_blank"><img src="../images/election-commission-logo.jpg" alt="election commission logo" height="90px"></a></div>
 	<div class="box"><a href="https://www.tafe.com/" target="_blank"><img src="../images/tafe.png" alt="tafe logo" height="80px"></a></div>
 	<div class="box"><a href="https://www.qainfotech.com/" target="_blank"><img src="../images/qa_infotech.png" alt="QA infotech logo" height="80px"></a></div>
 	</div>
